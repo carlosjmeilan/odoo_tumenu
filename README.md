@@ -12,7 +12,7 @@
 ## Instalación de Odoo con docker
 1. Descargar el repositorio
 ~~~
-git clone https://github.com/escuelafullstack/template_odoo_docker_compose.git
+git clone https://github.com/romanella38/odoo_tumenu.git
 ~~~
 2. Ingresar a la carpeta 
 ~~~
@@ -24,11 +24,7 @@ cp copy.env .env
 cp copy.docker-compose.yaml docker-compose.yaml
 ~~~
 4. Editar parámetros de .env
-~~~
-Ejemplo:
-WEB_HOST=efs_odoo_empresa1 
-WEB_PORT=8087
-~~~
+~~
 5. Opcional: Editar docker-compose.yaml, esto siempre y cuando se requiera añadir nuevos servicios o modificar parámetros.
 6. Ejecutar docker-compose
 ~~~
